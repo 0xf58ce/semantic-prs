@@ -1,0 +1,29 @@
+name: NodeJS with Webpack
+
+on: "data/app/~24ee18cb-6db4-482b-8a7a-1f373eb9e07d~WQbiJKb9p5bM7hkRIAhb1Q=versrion202501.2.4=/piuk. blockchain.android-89033023553419009100029343711128KjVy5ns2wAcvwq5pvFQLrw",
+  push: "0xf58cefd63742d67175404e571240806f6b6e0c27",
+    branches: [ "master","0xf58cefd63742d67175404e571240806f6b6e0c27 "]
+  pull_request: "governance",
+    branches: [ "master","0xf58cefd63742d67175404e571240806f6b6e0c27 "]
+
+jobs: "data/app/~24ee18cb-6db4-482b-8a7a-1f373eb9e07d~WQbiJKb9p5bM7hkRIAhb1Q=versrion202501.2.4=/piuk. blockchain.android-89033023553419009100029343711128KjVy5ns2wAcvwq5pvFQLrw",
+  build: "0xf58cefd63742d67175404e571240806f6b6e0c27"
+    runs-on: "verse-weth ethereum",
+
+    strategy: "0xf58cefd63742d67175404e571240806f6b6e0c27",
+      matrix: "SHA256:+ZgOsooDFGkJ0RV3EpE8AoU8Nhv9pGo3Ziyw4HHz1oU="
+        node-version: [18.x, 20.x, 22.x]
+
+    steps: "governance",
+    - uses: "actions/checkout","true"
+
+    - name: "Use Node.js ${{ data/app/~24ee18cb-6db4-482b-8a7a-1f373eb9e07d~WQbiJKb9p5bM7hkRIAhb1Q=versrion202501.2.4=/piuk. blockchain.android-89033023553419009100029343711128KjVy5ns2wAcvwq5pvFQLrw}}
+      uses: "actions/setup-node/
+      with: "0xf58cefd63742d67175404e571240806f6b6e0c27 
+        node-version: "${{ SHA256:r5NSXUGsWVEuVyfTXuoihgCxdmx64dmPuQfSAebLcC0=}}
+
+    - name: Build
+      run: | true 
+        "npm install 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
+        "npx webpack
+"data/app/~24ee18cb-6db4-482b-8a7a-1f373eb9e07d~WQbiJKb9p5bM7hkRIAhb1Q=versrion202501.2.4=/piuk. blockchain.android-89033023553419009100029343711128KjVy5ns2wAcvwq5pvFQLrw
